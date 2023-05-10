@@ -15,3 +15,10 @@ The function algorithm is the main implementation of the A* algorithm. It takes 
 The functions make_grid and draw_grid are used to create and draw the grid, respectively.
 
 Finally, the draw function is the main loop of the program that continually updates the screen with the current state of the grid until the user closes the window or the shortest path is found.
+
+To run the this program:
+1. Download/Clone the repository 
+2. Go into the directory that has these files
+3. On the command line type 
+    - pip install pygame
+    - python maze_so
