@@ -1,0 +1,17 @@
+This code is an implementation of the A* Search Algorithm in Python using the Pygame library.
+
+The A* algorithm is used to find the shortest path between two points on a two-dimensional grid with barriers. The program is interactive, allowing the user to draw barriers and select the start and end points on the grid.
+
+The first section of the code defines the necessary libraries, colors, and the dimensions of the grid.
+
+The class Spot represents each cell in the grid. It has methods to check if a cell is closed, open, a barrier, the start or end point, and to update its neighbors. The make_ methods are used to set the color of the cell for visualization.
+
+The function h is a heuristic that calculates the Manhattan distance between two points.
+
+The function reconstruct_path is used to trace back the path from the end point to the start point after the algorithm is finished.
+
+The function algorithm is the main implementation of the A* algorithm. It takes the start and end points as inputs, initializes the open set, and iteratively updates the g, f, and h scores of each cell until the end point is reached.
+
+The functions make_grid and draw_grid are used to create and draw the grid, respectively.
+
+Finally, the draw function is the main loop of the program that continually updates the screen with the current state of the grid until the user closes the window or the shortest path is found.
