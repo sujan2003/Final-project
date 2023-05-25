@@ -1,6 +1,4 @@
-This code is an implementation of the A* Search Algorithm in Python using the Pygame library.
-
-The A* algorithm is used to find the shortest path between two points on a two-dimensional grid with barriers. The program is interactive, allowing the user to draw barriers and select the start and end points on the grid.
+An interactive maze solver program which allows the user to draw barriers and select the start and end points on the grid. From there the program uses an A* search algorithm to find the short path from the start to end point. 
 
 The first section of the code defines the necessary libraries, colors, and the dimensions of the grid.
 
